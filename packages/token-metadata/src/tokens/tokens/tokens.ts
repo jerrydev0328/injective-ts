@@ -1921,6 +1921,20 @@ export default {
       },
     ],
   },
+  // add test BUKET TOKEN
+  BUKET: {
+    name: 'BUKET',
+    logo: 'baket.jpg',
+    coinGeckoId: '',
+
+    tokenFactories: [
+      {
+        creator: 'inj1x8v44tuhlfk8f64j4vehftwggfzdjtthmeddwm',
+        symbol: 'BUKET',
+        decimals: 6,
+      },
+    ],
+  },
 
   AOI: {
     name: 'Alien Token',
